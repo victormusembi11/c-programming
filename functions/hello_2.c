@@ -10,8 +10,7 @@ void sum(int *x, int *y)
     printf("The sum = %d\n", z);
 }
 
-
-int main ()
+int main()
 {
     int a, b;
 

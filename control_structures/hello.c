@@ -7,13 +7,19 @@ int main()
     printf("Enter the marks you have obtained in your CAT:\n");
     scanf("%f", &mark);
 
-    if ((mark <= 30) && (mark > 0)) {
-        if(mark >= 25){
+    if ((mark <= 30) && (mark > 0))
+    {
+        if (mark >= 25)
+        {
             printf("You obtained %.2f and have passed\n", mark);
-        } else {
+        }
+        else
+        {
             printf("You obtained %.2f and have failed\n", mark);
         }
-    } else {
+    }
+    else
+    {
         printf("it's not possible to get more than 30 marks or less than 0\n");
     }
 

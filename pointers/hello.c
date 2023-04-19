@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int main ()
+int main()
 {
     int a = 5;
     int *b = &a;
@@ -17,5 +17,4 @@ int main ()
     printf("Value in address a = %d", *b);
 
     return 0;
-
 }

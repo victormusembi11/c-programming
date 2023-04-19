@@ -1,10 +1,12 @@
 #include <stdio.h>
 
-int main () {
+int main()
+{
 
     int i = 1;
 
-    do {
+    do
+    {
         if ((i % 2) == 0)
             printf("%d\n", i);
         i++;

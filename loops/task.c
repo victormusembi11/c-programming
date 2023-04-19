@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-int main () {
+int main()
+{
 
     float salary;
-    int work_years; 
+    int work_years;
 
     printf("Enter monthly salary: ");
     scanf("%f", &salary);
@@ -15,9 +16,12 @@ int main () {
         Check if salary > 300000 & years worked in company >= 2
         for customer to qualify for loan
     */
-    if (salary < 300000 || work_years < 2) {
+    if (salary < 300000 || work_years < 2)
+    {
         printf("Customer does not qualify for loan!\n");
-    } else {
+    }
+    else
+    {
         printf("Customer qualifies for loan!\n");
     }
 
